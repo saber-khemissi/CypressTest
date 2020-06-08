@@ -1,0 +1,19 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saber",
+  "license": "ISC",
+  "devDependencies": {
+    "chai-colors": "^1.0.1",
+    "cypress": "^4.3.0",
+    "cypress-xpath": "^1.6.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
